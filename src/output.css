@@ -786,6 +786,10 @@ p {
   gap: 0.75rem;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
