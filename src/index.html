@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio | Fullstack</title>
     <link rel="stylesheet" href="./output.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
@@ -15,12 +15,12 @@
 
 </head>
 
-<body class="bg-gray-200 mx-auto">
+<body class="bg-gray-200">
 
-    <section class="bg-[url('./assets/images/Background_Intro.png')] bg-cover mx-auto w-full bg-no-repeat bg-center"
+    <section class="bg-[url('./assets/images/Background_Intro.png')] bg-contain bg-top md:bg-center lg:bg-cover bg-no-repeat px-5 flex flex-col justify-center overflow-x-hidden md:px-10"
         id="about">
 
-        <div class="flex justify-center items-center mx-auto mt-[120px] w-[112px] h-[112px] relative">
+        <div class="flex justify-center items-center mt-14 mx-auto w-[112px] h-[112px] relative">
 
             <img class="w-[87px] h-[87px] object-cover ring-2 ring-project-red ring-offset-4 ring-offset-gray-200 rounded-full"
                 src="./assets/profile.png " alt="imagem do perfil">
@@ -28,14 +28,14 @@
             <img class="absolute bottom-0 right-1 w-8 h-8 object-cover" src="./assets/icons/Code.png" alt="">
         </div>
 
-        <div class="max-w-[680px] mx-auto" id="info">
+        <div id="info">
 
             <h4 class="text-center mt-14 text-gray-500">Hello World! Meu nome é <span class="text-project-red">Matheus
                     Fillipe</span> e sou</h4>
 
             <h1 class="text-center text-gray-600 mt-2 mb-5">Desenvolvedor Fullstack</h1>
 
-            <h6 class="text-center text-gray-400 mb-20">Transformo necessidades em aplicações reais, evolventes e
+            <h6 class="text-center text-gray-400 mb-20 max-w-[500px] mx-auto">Transformo necessidades em aplicações reais, evolventes e
                 funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções
                 inovadoras e eficazes para desafios complexos.</h6>
         </div>
@@ -78,13 +78,13 @@
 
     </section>
 
-    <section id="projects" class="px-[120px] pt-[72px] pb-36 max-w-[1040px] mx-auto">
+    <section id="projects" class="px-[40px] pt-[72px] pb-36 sm:max-w-[576px] md:max-w-[1040px] lg:max-w-[1360px] mx-auto">
         <div>
-            <h4 class="text-center text-project-red mb-2">Meu trabalho</h4>
+            <h4 class="text-center content-center text-project-red mb-2">Meu trabalho</h4>
             <h2 class="text-center text-gray-600">Veja os projetos em destaque</h2>
         </div>
 
-        <div id="cards" class="mt-14 grid grid-rows-2 grid-cols-3 place-content-center gap-6">
+        <div id="cards" class="mt-14 grid grid-rows-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 place-content-center justify-center gap-6">
 
             <div
                 class="bg-gray-300 p-3 rounded-xl transition ease-in-out duration-300 hover:border hover:border-gray-400 hover:scale-105">
@@ -156,7 +156,7 @@
         </div>
     </section>
 
-    <section id="servicos" class="px-[120px] pt-[88px] pb-[120px] mx-auto bg-gray-100">
+    <section id="servicos" class="px-[40px] pt-[88px] pb-[120px] mx-auto bg-gray-100">
 
         <div id="titulo" class="mb-14">
             <h4 class="text-center text-project-red">Meus serviços</h4>
@@ -206,7 +206,7 @@
     </section>
 
     <section id="contato"
-        class="px-[120px] pt-[128px] pb-[200px] bg-[url('./assets/images/Background_Contacts.png')] bg-cover bg-center bg-no-repeat">
+        class="px-[40px] pt-[128px] pb-[200px] bg-[url('./assets/images/Background_Contacts.png')] bg-contain bg-top bg-no-repeat md:bg-center lg:bg-cover">
 
         <div id="titulo" class="mb-14">
             <h4 class="text-center text-project-purple">Contato</h4>
@@ -214,9 +214,9 @@
             <h5 class="text-center text-gray-500">Entre em contato ou acompanhe minhas redes sociais</h5>
         </div>
 
-        <div id="links" class="flex flex-col gap-4">
+        <div id="links" class="flex flex-col gap-4 max-w-[360px] mx-auto justify-center">
 
-            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 w-[400px] mx-auto hover:ring-2 hover:ring-project-blue">
+            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 hover:ring-2 hover:ring-project-blue">
                 <div class="flex gap-3 items-center">
                     <img src="./assets/icons/linkedin.svg" alt="">
                     <p class="text-gray-500">Linkedin</p>
@@ -224,7 +224,7 @@
                 <img class="aspect-square h-[11px] w-[11px]" src="./assets/icons/arrow-links.png" alt="">
             </a>
 
-            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 w-[400px] mx-auto hover:ring-2 hover:ring-project-blue">
+            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 hover:ring-2 hover:ring-project-blue">
                 <div class="flex gap-3 items-center">
                     <img src="./assets/icons/instagram.svg" alt="">
                     <p class="text-gray-500">Instagram</p>
@@ -232,7 +232,7 @@
                 <img class="aspect-square h-[11px] w-[11px]" src="./assets/icons/arrow-links.png" alt="">
             </a>
 
-            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 w-[400px] mx-auto hover:ring-2 hover:ring-project-blue">
+            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 hover:ring-2 hover:ring-project-blue">
                 <div class="flex gap-3 items-center">
                     <img src="./assets/icons/github-link.svg" alt="">
                     <p class="text-gray-500">Github</p>
@@ -240,7 +240,7 @@
                 <img class="aspect-square h-[11px] w-[11px]" src="./assets/icons/arrow-links.png" alt="">
             </a>
 
-            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 w-[400px] mx-auto hover:ring-2 hover:ring-project-blue">
+            <a href="#" class="flex items-center justify-between bg-gray-300 rounded-lg p-5 hover:ring-2 hover:ring-project-blue">
                 <div class="flex gap-3 items-center">
                     <img src="./assets/icons/email.svg" alt="">
                     <p class="text-gray-500">E-mail</p>

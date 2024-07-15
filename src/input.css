@@ -4,7 +4,7 @@
 
 @layer base {
     h1 { /*title lg*/
-        @apply text-[56px] leading-[120%] font-bold;
+        @apply text-[48px] leading-[120%] font-bold;
         font-family: "Asap", sans-serif;
     }
 
