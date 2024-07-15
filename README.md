@@ -9,4 +9,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   <li>Tailwind</li>
 </ul>
 <h1>📝 Projeto</h1>
-Nesse projeto foi desenvolvida a homepage de um portal de notícias sobre tecnologia para ser visualizado em um desktop. Esse é um dos projetos desenvolvidos em aula na formação Full-Stack da Rocketseat.
+O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional. 
+Esse é um dos desafios práticos da formação Fullstack, um dos conteúdos disponíveis para alunos da Rocketseat. 
