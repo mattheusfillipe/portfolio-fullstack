@@ -12,13 +12,67 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
         rel="stylesheet">
-    
+
 </head>
 
-<body class="bg-gray-300">
-    <div class="mx-auto mt-30 w-24 h-24 object-cover">
-        <img src="./assets/profile.png " alt="imagem do perfil">
-    </div>
+<body class="bg-gray-200 mx-auto">
+
+    <section class="bg-[url('./assets/images/Background_Intro.png')] bg-cover mx-auto w-full bg-no-repeat bg-center" id="about">
+
+        <div class="flex justify-center items-center mx-auto mt-[120px] w-[112px] h-[112px] relative">
+
+            <img class="w-[87px] h-[87px] object-cover ring-2 ring-project-red ring-offset-4 ring-offset-gray-200 rounded-full"
+                src="./assets/profile.png " alt="imagem do perfil">
+
+            <img class="absolute bottom-0 right-1 w-8 h-8 object-cover" src="./assets/icons/Code.png" alt="">
+        </div>
+
+        <div class="max-w-[680px] mx-auto" id="info">
+
+            <h4 class="text-center mt-14 text-gray-500">Hello World! Meu nome é <span class="text-project-red">Matheus Fillipe</span> e sou</h4>
+
+            <h1 class="text-center text-gray-600 mt-2 mb-5">Desenvolvedor Fullstack</h1>
+
+            <h6 class="text-center text-gray-400 mb-20">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</h6>
+        </div>
+
+        <div class="mx-auto flex justify-center gap-4 flex-wrap" id="tags">
+
+            <a href="#" class="flex gap-2 items-center bg-gray-300 px-8 py-2 rounded-full">
+                <img src="./assets/icons/GitHub.svg" alt="">
+                <h5 class="text-gray-500">GitHub</h5>
+            </a>
+
+            <a href="#" class="flex gap-2 items-center bg-gray-300 px-8 py-2 rounded-full">
+                <img src="./assets/icons/HTML.svg" alt="" class="fill-project-red">
+                <h5 class="text-gray-500">HTML</h5>
+            </a>
+
+            <a href="#" class="flex gap-2 items-center bg-gray-300 px-8 py-2 rounded-full">
+                <img src="./assets/icons/CSS.svg" alt="">    
+                <h5 class="text-gray-500">CSS</h5>
+            </a>
+
+            <a href="#" class="flex gap-2 items-center bg-gray-300 px-8 py-2 rounded-full">
+                <img src="./assets/icons/JavaScript.svg" alt="">
+                <h5 class="text-gray-500">JavaScript</h5>
+            </a>
+
+            <a href="#" class="flex gap-2 items-center bg-gray-300 px-8 py-2 rounded-full">
+                <img src="./assets/icons/React.svg" alt="">
+                <h5 class="text-gray-500">React</h5>
+            </a>
+
+            <a href="#" class="flex gap-2 items-center bg-gray-300 px-8 py-2 rounded-full">
+                <img src="./assets/icons/Node.js.svg" alt="">
+                <h5 class="text-gray-500">Node.js</h5>
+            </a>
+
+        </div>
+
+        <img class="mx-auto mt-24" src="./assets/icons/arrow.svg" alt="">
+
+    </section>
 </body>
 
 </html>

@@ -16,7 +16,6 @@ module.exports = {
       'gray-600': '#E2E4E9',
     },
   },
-  extend: {
-  },
+  extend: {},
   plugins: [],
 }
