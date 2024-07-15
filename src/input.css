@@ -3,32 +3,32 @@
 @tailwind utilities;
 
 @layer base {
-    h1 {
+    h1 { /*title lg*/
         @apply text-[56px] leading-[120%] font-bold;
         font-family: "Asap", sans-serif;
     }
 
-    h2 {
+    h2 { /*title md*/
         @apply text-[24px] leading-[120%] font-bold;
         font-family: "Asap", sans-serif;
     }
 
-    h3 {
+    h3 { /*title sm*/
         @apply text-[16px] leading-[120%] font-bold;
         font-family: "Asap", sans-serif;
     }
 
-    h4 {
+    h4 { /*subtitle*/
         @apply text-[20px] leading-[120%] font-normal;
         font-family: "Inconsolata", sans-serif;
     }
 
-    h5 {
+    h5 { /*text-md*/
         @apply text-[16px] leading-[140%] font-normal;
         font-family: "Maven Pro", sans-serif;
     }
 
-    h6 {
+    h6 { /*text-sm*/
         @apply text-[14px] leading-[140%] font-normal;
         font-family: "Maven Pro", sans-serif;
     }
