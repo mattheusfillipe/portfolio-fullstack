@@ -32,4 +32,9 @@
         @apply text-[14px] leading-[140%] font-normal;
         font-family: "Maven Pro", sans-serif;
     }
+
+    p {
+        @apply text-[16px] leading-[140%] font-medium;
+        font-family: "Maven Pro", sans-serif;
+    }
 }
