@@ -659,6 +659,10 @@ h6 {
   margin-top: 1.5rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -707,6 +711,14 @@ h6 {
   width: 306px;
 }
 
+.w-\[280px\] {
+  width: 280px;
+}
+
+.min-w-\[280px\] {
+  min-width: 280px;
+}
+
 .max-w-\[680px\] {
   max-width: 680px;
 }
@@ -733,6 +745,10 @@ h6 {
 
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-wrap {
@@ -767,6 +783,10 @@ h6 {
   gap: 1.5rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-y-2 {
   row-gap: 0.5rem;
 }
@@ -791,6 +811,15 @@ h6 {
   border-width: 4px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(22 24 29 / var(--tw-border-opacity));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 24 29 / var(--tw-bg-opacity));
@@ -799,6 +828,11 @@ h6 {
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(41 44 52 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 14 17 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/assets\/images\/Background_Intro\.png\'\)\] {
@@ -838,6 +872,10 @@ h6 {
   padding: 0.75rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -864,6 +902,14 @@ h6 {
 
 .pt-\[72px\] {
   padding-top: 72px;
+}
+
+.pb-\[120px\] {
+  padding-bottom: 120px;
+}
+
+.pt-\[88px\] {
+  padding-top: 88px;
 }
 
 .text-center {
